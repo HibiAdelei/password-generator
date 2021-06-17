@@ -44,7 +44,7 @@ function lowerCheck() {
 
     } 
       else {
-      alert("Please answer Y or N");
+      alert("Please answer yes or no");
       lowerCheck();
     }
     return lowcheck;
@@ -68,7 +68,7 @@ function upperCheck() {
 
     } 
       else {
-      alert("Please answer Y or N");
+      alert("Please answer yes or no");
       upperCheck();
     }
     return upcheck;
@@ -93,7 +93,7 @@ function spCheck() {
 
     } 
       else {
-      alert("Please answer Y or N");
+      alert("Please answer yes or no");
       spCheck();
     }
     return specialsCheck;
