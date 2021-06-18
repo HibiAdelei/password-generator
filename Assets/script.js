@@ -145,7 +145,7 @@ function numCheck() {
 
 //generates secure password
 function generatePassword() {
-  //runs each check function, then assembles a password based on which cases are true
+ //runs each check function, then assembles a password based on which cases are true
 lengthCheck();
 upperCheck();
 lowerCheck();
@@ -179,7 +179,7 @@ if (upCheck && numberCheck && specialsCheck) {
 } else {
   passwordCharacters === lowercaseChar;
 }
-
+  //randomises and shuffles characters
   for(var i = 0; i < passLength; i++) {
     passwordContent += passwordCharacters.charAt(Math.floor(Math.random() * passwordCharacters.length));
   }
