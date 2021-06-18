@@ -6,7 +6,7 @@ This is a simple website application written in Javascript designed to generate 
 ## Usage
 Provided is a screenshot of the website application.
     
-![site screenshot](assets/passgenSS.png)
+![site screenshot](Assets/passgenSS.png)
     
 
 ## License
